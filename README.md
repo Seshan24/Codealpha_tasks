@@ -1,29 +1,33 @@
-# 🎮 CodeAlpha Hangman Game
+# 📈 CodeAlpha Stock Portfolio Tracker
 
-A simple text-based Hangman game developed using Python as part of the CodeAlpha Python Programming Internship.
+A simple Python-based Stock Portfolio Tracker developed as part of the CodeAlpha Python Programming Internship.
 
 ## Features
 
-- Random word selection
-- 5 predefined words
-- Letter-by-letter guessing
-- Maximum 6 incorrect guesses
-- Input validation
-- Displays guessed letters
-- Win and lose conditions
+- Displays available stocks
+- Uses predefined stock prices
+- Allows users to enter stock symbols
+- Allows users to enter quantities
+- Calculates individual investments
+- Calculates total investment value
+- Saves portfolio information to a CSV file
+
+## Available Stocks
+
+| Stock | Price |
+|------|------:|
+| AAPL | $180 |
+| TSLA | $250 |
+| GOOGL | $140 |
+| MSFT | $420 |
+| AMZN | $175 |
 
 ## Technologies Used
 
 - Python
-- random module
-- while loop
-- if-else
-- strings
-- lists
-
-## How to Run
-
-1. Install Python.
-2. Clone this repository.
-3. Open the project folder.
-4. Run:
+- Dictionaries
+- Lists
+- Loops
+- Functions / input-output
+- Arithmetic
+- CSV file handling
